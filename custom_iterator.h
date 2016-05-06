@@ -35,7 +35,9 @@ namespace CS2312 {
             typedef std::forward_iterator_tag iterator_category;
             typedef size_type difference_type;
 
-            iterator(pointer ptr);
+            iterator(pointer ptr){
+                __ptr = ptr;
+            };
             self_type operator++();
             self_type operator++(int junk);
             reference operator*();
