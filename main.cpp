@@ -33,8 +33,8 @@ int main() {
     test_less_usage(ec, NumIters);
 
     // iterator tests
-    test_iterator_smoketest(ec);
-    test_iterator_usage(ec, NumIters);
+//    test_iterator_smoketest(ec);
+//    test_iterator_usage(ec, NumIters);
 
     return 0;
 }
